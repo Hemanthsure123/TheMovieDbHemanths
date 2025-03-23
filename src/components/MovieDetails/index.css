@@ -1,0 +1,106 @@
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.movie-details-body {
+  display: flex;
+  flex-direction: column;
+  width: 93%;
+  height: 540px;
+  border: 0px;
+  border-radius: 12px;
+  background-color: #000c40;
+  padding: 18px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.movie-detail-png {
+  width: 95%;
+  margin: auto;
+  height: 45%;
+  background-size: cover;
+  border-radius: 12px;
+  border: 0px;
+}
+
+.movie-detail-heading {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.movie-detail-paragraph {
+  color: white;
+  font-size: small;
+  font-weight: 500;
+}
+
+.ratings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.rating {
+  color: white;
+  font-size: small;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.rating-count {
+  color: white;
+  font-size: small;
+  font-weight: 500;
+}
+
+.duration {
+  color: white;
+  font-size: small;
+  font-weight: 500;
+}
+
+.genres-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.genre-item {
+  color: white;
+  margin-right: 12px;
+  font-size: medium;
+  border: 1px solid white;
+  background-color: transparent;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.release {
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.cast-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 93%;
+  margin: auto;
+}
+
+.movie-cast-heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-left: 60px;
+}

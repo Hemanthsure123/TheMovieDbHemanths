@@ -1,0 +1,27 @@
+.cast-card {
+  width: 240px;
+  min-height: 200px;
+  max-height: 380px;
+  margin: 12px;
+  background-color: #000c40;
+  border: 0px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.cast-png {
+  width: 90%;
+  height: 60%;
+}
+
+.cast-name {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.cast-details {
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+}
